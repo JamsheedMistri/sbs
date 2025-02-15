@@ -3,7 +3,7 @@
   "short_name": "Poomsae SBS",
   "description": "Created by Jamsheed Mistri",
   "start_url": "/",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "landscape",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
