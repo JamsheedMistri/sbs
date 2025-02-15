@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SBS Poomsae Scoring System
+
+Welcome to the SBS Poomsae Scoring System! This application is designed to facilitate side-by-side scoring for poomsae competitions, ensuring accuracy and efficiency in the scoring process.
+
+## Overview
+
+The SBS Poomsae Scoring System is accessible online at [sbs.jmistri.com](https://sbs.jmistri.com). It is built with modern web technologies to provide a seamless and user-friendly experience for judges and organizers.
+
+## Key Features
+
+- **Side-by-Side Scoring**: Allows judges to score competitors simultaneously, improving the speed and consistency of the scoring process.
+- **Progressive Web App (PWA)**: The application can be added to your device's home screen, providing quick access and offline capabilities.
+- **User-Friendly Interface**: Designed with accessibility in mind, ensuring that all users can navigate and use the system effectively.
+
+## Accessibility
+
+The application is accessible via any modern web browser at [sbs.jmistri.com](https://sbs.jmistri.com). For enhanced convenience, users can install the application as a Progressive Web App (PWA) on their devices. This allows for offline usage and a native app-like experience.
 
 ## Getting Started
 
-First, run the development server:
+To start using the SBS Poomsae Scoring System, simply visit [sbs.jmistri.com](https://sbs.jmistri.com) on your preferred device. Follow the on-screen instructions to add the application to your home screen for easy access.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Contribution
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We welcome contributions to improve the SBS Poomsae Scoring System. If you have suggestions or would like to contribute, please reach out to the project maintainers or submit a pull request on GitHub.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For any questions or feedback, please contact the project maintainers or open an issue on GitHub. We appreciate your input and support in making the SBS Poomsae Scoring System the best it can be.
