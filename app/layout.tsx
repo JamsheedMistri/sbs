@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,6 +19,13 @@ export const metadata: Metadata = {
     icon: ["/icons/icon-192x192.png"],
     apple: ["/icons/icon-192x192.png"],
   },
+  manifest: "/manifest.json",
+  themeColor: "#000000",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Poomsae SBS",
+  },
 };
 
 export default function RootLayout({
@@ -29,21 +35,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
-        />
-        <meta name="apple-mobile-web-app-title" content="Poomsae SBS" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-      </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
       >
-        {children}
+        <div className="landscape:hidden flex items-center justify-center h-screen p-6">
+          <p className="text-center text-lg">
+            Please rotate your device to landscape mode.
+          </p>
+        </div>
+        <div className="landscape:block hidden">{children}</div>
       </body>
     </html>
   );
